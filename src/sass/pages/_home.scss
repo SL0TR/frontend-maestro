@@ -1,7 +1,7 @@
 .header {
 
   .col-2 {
-    padding-top: 10rem;
+    padding-top: 9rem;
 
     h1 {
       position: relative;
@@ -25,10 +25,15 @@
 
   }
 
+  .col-3 {
+    width: 0;
+  }
+
+
   .col-4 {
     background-image: url('./static/header-bg.png');
     background-position: center;
-    background-size: cover;
+    background-size: 100% 100%;
     flex-grow: 1;
   }
 

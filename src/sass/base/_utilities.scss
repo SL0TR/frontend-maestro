@@ -21,24 +21,29 @@
     flex-direction: column;
   }
 
-  .col-1,
-  .col-5 {
-    width: 13%;
+  .col-1 {
+    width: 15%;
+  }
+
+  .col-2 {
+    width: 36%;
   }
 
   .col-3 {
     width: 8%;
-
-    @include respond(tab-land) {
-      width: 0;
-    }
-
   }
-
-  .col-2,
+  
   .col-4 {
-    width: 33%;
+    width: 26%;
   }
+
+  .col-5 {
+    width: 15%;
+  }
+
+  
+
+  
 
   @include col-x {
     border-right: 1px solid rgba(0,0,0, .06);
