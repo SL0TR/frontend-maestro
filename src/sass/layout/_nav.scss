@@ -20,6 +20,88 @@ nav {
   }
 
   .col-4 {
+    position: relative;
+
+    .nav-menu {
+      position: absolute;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      right: 0;
+      width: 100%;
+      top: 50%;
+      transform: translateY(-50%);
+
+      &--item {
+        margin-left: 32%;
+        
+        a,
+        .active {
+          font-weight: 700;
+          white-space: nowrap;
+          font-size: 1.6rem;
+          color: $primary-color;
+          text-decoration: none;
+          transition: all .3s;
+          position: relative;
+          letter-spacing: -.5px;
+
+          &::after {
+            content: "";
+            visibility: hidden;
+            opacity: 0;
+            position: absolute;
+            height: 3px;
+            width: 2rem;
+            border-radius: 1px;
+            background-color: $primary-color;
+            bottom: -.5rem;
+            left: 0;
+            transition: all .3s;
+          }
+
+
+          &:hover {
+            text-decoration: none;
+            color: darken($primary-color, 60);
+
+            &::after {
+              opacity: 1;
+              visibility: visible;
+            }
+
+          }
+
+        }
+
+        .active {
+
+          &::after {
+            visibility: visible;
+            opacity: 1;
+          }
+
+        }
+
+        &:last-of-type {
+          margin-left: 25rem;
+        }
+
+      }
+
+    }
+
+  }
+
+  .col-5 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .shooping-cart {
+      height: 2rem;
+      width: 2rem;
+    }
   }
 
 }
