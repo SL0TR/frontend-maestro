@@ -1,0 +1,11 @@
+//import all sass files
+@import './abstracts/_mixins.scss';
+@import './abstracts/_variables.scss';
+
+@import './base/_utilities.scss';
+@import './base/_typography.scss';
+@import './base/_base.scss';
+
+@import './layout/nav';
+
+@import './pages/home';

@@ -1,0 +1,18 @@
+.home {
+
+  .col-2 {
+    padding-top: 10rem;
+
+    h1 {
+      position: relative;
+      right: 1rem;
+
+      @include respond(tab-port) {
+        right: 0;
+      }
+
+    }
+    
+  }
+
+}
