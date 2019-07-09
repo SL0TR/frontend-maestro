@@ -12,7 +12,7 @@ h1, h2, h3, h4, .lead  {
 }
 
 h1 {
-  font-size: 12rem;
+  font-size: 13rem;
   font-weight: bold;
 
   @include respond(tab-port) {
