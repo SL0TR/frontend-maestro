@@ -1,0 +1,5 @@
+.empty-column {
+  @include col-x {
+    padding: 12rem 0;
+  }
+}

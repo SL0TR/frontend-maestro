@@ -1,0 +1,135 @@
+.header {
+  background-color: $cream-white;
+
+  .col-2 {
+    padding-top: 9rem;
+
+    h1 {
+      position: relative;
+      right: 1rem;
+      
+      &::after {
+        content: "";
+        position: absolute;
+        height: 9px;
+        width: 10rem;
+        background-color: $primary-color;
+        bottom: -1rem;
+        left: 1rem;
+      }
+
+      @include respond(tab-port) {
+        right: 0;
+      }
+
+    }
+    
+
+    p {
+      color: $primary-color-light;
+      font-size: 2rem;
+      width: 50%;
+      line-height: 2;
+      margin-bottom: 7rem;
+      margin-top: 26rem;
+    }
+
+  }
+
+  .col-4 {
+    background-image: url('./static/header-bg.png');
+    background-position: center;
+    background-size: 100% 100%;
+    flex-grow: 1;
+    padding: 9rem 0rem 0rem 7rem;
+    color: #fff;
+    position: relative;
+
+    p:first-of-type {
+      color: rgba(#fff, .7);
+      font-size: 1.7rem;
+      text-transform: lowercase;
+      font-weight: bold;
+      margin-bottom: 2.5rem;
+    }
+
+    h2 {
+      color: inherit;
+    }
+
+    p:last-of-type {
+      margin-top: 2rem;
+      font-weight: 300;
+      color: rgba(#fff, .7);
+      width: 33%;
+    }
+
+    .slider-arrow {
+      display: flex;
+      margin-top: 7rem;
+      justify-content: flex-start;
+      align-items: center;
+      position: relative;
+      right: 1rem;
+      cursor: pointer;
+
+      &--left {
+        transform: rotate(-180deg);
+        height: 2rem;
+        width: 4rem;
+
+        path {
+          fill: rgba(#fff, .7);
+        }
+
+      }
+
+      &--right {
+        width: 6rem;
+        height: 3rem;
+        margin-left: 2rem;
+
+        path {
+          fill: #fff;
+        }
+
+      }
+
+    }
+
+
+  }
+
+  &-cta {
+    position: absolute;
+    left: -6.5rem;
+    display: flex;
+    bottom: 7rem;
+
+    .control-btn {
+      background-color: $primary-color;
+      width: 6.5rem;
+      background-image: url('./static/settings.svg');
+      background-position: center;
+      background-size: 32% 32%;
+      background-repeat: no-repeat;
+      height: 6.5rem;
+    }
+
+    .cta-btn {
+      background-color: #fff;
+      color: $primary-color;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 6.5rem;
+      padding: 0 3rem;
+      font-weight: bold;
+      box-shadow: 0px 1px 15px 10px rgba(0, 0, 0, .1);
+      font-size: 2rem;
+    }
+
+  }
+
+
+}

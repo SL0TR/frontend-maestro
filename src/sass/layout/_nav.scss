@@ -1,5 +1,5 @@
 nav {
-  
+  background-color: $cream-white;
 
   @include col-x {
     padding: 5rem 0 5rem 5rem;
@@ -9,7 +9,7 @@ nav {
     display: flex;
     justify-content: flex-end;
 
-    h2 {
+    h3 {
 
       span {
         color: $pink;

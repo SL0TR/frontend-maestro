@@ -1,11 +1,11 @@
 import React from 'react';
-import { ReactComponent as Logo } from '../static/shopping-bag.svg';
+import { ReactComponent as Logo } from '../../static/shopping-bag.svg';
 
 const Nav = () => {
   return ( 
     <nav className="nav grid">
       <div className="col-1">
-        <h2>Bin<span>Go</span> </h2>
+        <h3>Bin<span>Go</span> </h3>
       </div>
       <div className="col-2">
       </div>
