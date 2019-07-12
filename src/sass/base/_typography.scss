@@ -1,3 +1,6 @@
+//Montserrat
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700,800&display=swap');
+
 body {
   font-family: $headingFont;
   font-weight: 400;
@@ -47,6 +50,16 @@ h5 {
   font-size: 2rem;
   line-height: 3rem;
   font-family: $headingFont;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 2.6rem;
+
+  span {
+    color: $pink;
+    font-weight: inherit;
+  }
 }
 
 p {

@@ -5,7 +5,7 @@ const Nav = () => {
   return ( 
     <nav className="nav grid">
       <div className="col-1">
-        <h3>Bin<span>Go</span> </h3>
+        <h3 className="logo-text">Bin<span>Go</span> </h3>
       </div>
       <div className="col-2">
       </div>
