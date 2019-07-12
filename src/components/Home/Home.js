@@ -5,6 +5,7 @@ import EmptyColumn from './sections/empty-column';
 import PastSection from './sections/past';
 import NewSection from './sections/new';
 import NextSection from './sections/next';
+import OurPrograms from './sections/programs';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
       <PastSection />
       <NewSection />
       <NextSection />
+      <OurPrograms />
     </>
   );
 }

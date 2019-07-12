@@ -1,0 +1,79 @@
+.programs-container {
+  background-color: $blue-white;
+
+  @include col-x {
+    height: 100vh;
+  }
+
+  position: relative;
+
+  .our-programs {
+    position: absolute;
+    width: 70%;
+    height: 66%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: red;
+    left: 15%;
+    background-image: url('./static/our-programs-bg.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+    &--left,
+    &--right {
+      width: 50%;
+    }
+
+    &--left {
+      padding-left: 7rem;
+
+      h2 {
+        color: $primary-color;
+        font-size: 4.55rem;
+      }
+
+      .thumb {
+        margin-top: 5rem;
+        background-image: url('./static/our-programs-img.jpg');
+        padding-top: 35%;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 1px 10px 5px rgba(#000, .1);
+      }
+
+    }
+
+    &--right {
+      padding-left: 18rem;
+
+      p {
+        width: 80%;
+        margin: 5rem 0;
+        
+      }
+
+      .btn {
+        padding: 1.7rem 4.5rem;
+        background-color: #fff;
+        color: $primary-color;
+
+        &:hover {
+          border: 1px solid transparent;
+          background-color: $primary-color;
+          color: #fff;
+        }
+
+      }
+
+    }
+
+
+    
+  }
+
+}
