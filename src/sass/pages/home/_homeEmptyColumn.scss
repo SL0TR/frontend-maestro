@@ -1,5 +1,10 @@
 .empty-column {
   @include col-x {
     padding: 12rem 0;
+
+    @include respond(tab-port) {
+      display: none;
+    }
+
   }
 }

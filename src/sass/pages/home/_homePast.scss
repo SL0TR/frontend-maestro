@@ -3,6 +3,16 @@
 
   @include col-x {
     padding-bottom: 26rem;
+    @include respond(tab-land) {
+      padding-bottom: 0rem; 
+    }
+  }
+
+
+  .col-3 {
+    @include respond(tab-port) {
+      display: none;
+    }
   }
 
   .col-2 {
@@ -14,6 +24,7 @@
       color: #fff;
       position: relative;
       padding: 5rem 0 18rem 2.5rem;
+      overflow: hidden;
 
       h2 {
         color: inherit;
@@ -26,6 +37,8 @@
         position: absolute;
         right: -2rem;
         bottom: -9.5rem;
+        
+
       }
 
       &:nth-child(1) {
@@ -63,9 +76,20 @@
 
   .col-4 {
 
+
+    @include respond(tab-land) {
+      padding: 2rem;
+      text-align: center;
+    }
+
     h1 {
       position: relative;
       right: 1rem;
+
+      @include respond(tab-land) {
+        margin-bottom: 7rem;
+      }
+      
 
       p {
         position: absolute;
@@ -73,6 +97,12 @@
         color: rgba(#000, 0.15);
         font-size: 2.7rem;
         bottom: 2.2rem;
+        @include respond(tab-land) {
+          bottom: -4rem;
+          width: 100%;
+          left: 50%;
+          transform: translateX(-50%);
+        }
       }
 
     }
@@ -85,6 +115,12 @@
       width: 65%;
       color: rgba(#000, 0.7);
       margin-bottom: 5rem;
+      @include respond(tab-land) {
+        width: 100%;
+        text-align: center;
+        height: 8rem;
+      }
+
     }
 
   }

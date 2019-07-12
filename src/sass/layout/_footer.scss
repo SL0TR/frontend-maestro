@@ -2,9 +2,19 @@
   padding: 8rem 13rem;
   padding-right: 2rem;
   display: flex;
+  
+  @include respond(tab-land) {
+    text-align: center;
+    padding: 2rem;
+    flex-direction: column;
+  }
 
   &-left {
     width: 30%;
+    @include respond(tab-land) {
+      width: 100%;
+      margin-bottom: 2rem;
+    }
 
     p {
       width: 70%;
@@ -12,6 +22,12 @@
       color: rgba($primary-color, .5);
       font-size: 1.45rem;
       font-weight: 600;
+
+      @include respond(tab-land) {
+        width: 100%;
+        padding: 0 5rem;
+      }
+
     }
 
   }
@@ -22,6 +38,10 @@
     width: 25%;
     display: flex;
     flex-direction: column;
+    @include respond(tab-land) {
+      width: 100%; 
+      margin-bottom: 1rem;
+    }
 
     h5 {
       color: $primary-color;

@@ -2,6 +2,11 @@
 
   @include col-x {
     padding: 24rem 0;
+
+    @include respond(tab-land) {
+      padding: 0;
+    }
+
   }
 
   .col-2 {
@@ -57,6 +62,12 @@
         width: 55%;
         color: #000;
 
+        @include respond(tab-land) {
+          right: 22.5%;
+          bottom: -65%;
+          text-align: center;
+        }
+
         .thumb {
           background-image: url('./static/next-iphone.png');
           padding-top: 75.7%;
@@ -80,6 +91,7 @@
     }
 
     .next-left {
+      text-align: center;
       
       h5 {
         font-size: 1.9rem;
@@ -95,6 +107,7 @@
         font-size: 6rem;
         color: $blue;
         font-weight: bold;
+        text-align: center;
       }
 
       
@@ -105,8 +118,14 @@
 
 
   .col-4 {
+    text-align: center;
+    padding-top: 2.5rem;
     .next-main {
       margin-bottom: 22rem;
+
+      @include respond(tab-land) {
+        margin-bottom: 5rem;
+      }
 
       &--thumb {
         background-image: url('./static/next-main-bg.png');
@@ -132,12 +151,20 @@
     .next-right {
       width: 70%;
 
+      @include respond(tab-land) {
+        width: 100%;
+        padding-bottom: 5rem;;
+      }
+
       h2 {
         font-size: 3rem;
       }
 
       p {
         margin-bottom: 5rem;
+        @include respond(tab-land) {
+          margin-top: 2rem;
+        }
       }
 
       a {

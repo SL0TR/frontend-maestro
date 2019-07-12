@@ -35,6 +35,12 @@
   right: 1rem;
   cursor: pointer;
 
+  @include respond(tab-port) {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
+
   &--left {
     transform: rotate(-180deg);
     height: 2rem;
@@ -80,10 +86,21 @@
 
   .col-1 {
     width: 15%;
+    
+    @include respond(tab-land) {
+      display: none;
+    }
+
   }
 
   .col-2 {
     width: 36%;
+    
+    @include respond(tab-land) {
+      width: 100%;
+    }
+
+
   }
 
   .col-3 {
@@ -92,10 +109,17 @@
   
   .col-4 {
     width: 26%;
+    @include respond(tab-land) {
+      width: 100%;
+    }
   }
 
   .col-5 {
     width: 15%;
+
+    @include respond(tab-land) {
+      display: none;
+    }
   }
 
   

@@ -1,11 +1,27 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { ReactComponent as Logo } from '../../static/shopping-bag.svg';
+import { ReactComponent as MenuButtonOpen } from '../../static/menu.svg';
+import { ReactComponent as MenuButtonClose } from '../../static/close.svg';
 
 const Nav = () => {
+  const [showNav, setShowNav] = useState(false);
+
+  const handleNav = () => {
+    if(!showNav) {
+      setShowNav(true)
+    } else {
+      setShowNav(false);
+    }
+  }
+
   return ( 
-    <nav className="nav grid">
+    <nav className={ !showNav ? "nav grid" : "nav grid nav-toggled"} >
       <div className="col-1">
         <h3 className="logo-text">Bin<span>Go</span> </h3>
+        <button className="nav-toggle--btn">
+          { !showNav && <MenuButtonOpen onClick={handleNav} />}
+          { showNav && <MenuButtonClose onClick={handleNav} />}
+        </button>
       </div>
       <div className="col-2">
       </div>

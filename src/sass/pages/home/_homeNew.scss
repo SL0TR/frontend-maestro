@@ -5,6 +5,11 @@
 
     @include col-x {
       height: 8rem;
+
+      @include respond(tab-land) {
+        display: none;
+      }
+
     }
   
   }
@@ -16,9 +21,22 @@
     }
 
     .col-4 {
+
+      @include respond(tab-land) {
+        margin-top: 2rem;
+      
+      }
+
       h1 {
         line-height: .6;
         bottom: 1.7rem;
+
+        @include respond(tab-land) {
+          margin-bottom: 2rem;
+        
+        }
+
+      
 
         p {
           display: none;
@@ -26,16 +44,27 @@
       }
 
       .past-text {
+        @include respond(tab-land) {
+          margin-bottom: 2.5rem;
+          height: auto;
+        }
         &:nth-child(2) {
           margin-bottom: 1rem;
+
         }
       }
 
     }
 
     .col-2 {
+      position: relative;
+
+      @include respond(tab-land) {
+        height: 42rem;
+        margin-top: 10rem;
+        margin-bottom: 10rem;
       
-    position: relative;
+      }
 
       .new-art {
         background-image: url('./static/new-art.png');
