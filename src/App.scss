@@ -1,7 +1,25 @@
 //import fonts
-@import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap');
+
+//DM SANS
+// @import url('https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap');
+
+//Montserrat
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800&display=swap');
+// https://befonts.com/gilroy-font-family.html
 
 
+// @font-face {
+//   font-family: 'Gilroy';
+//   font-weight: normal;
+//   src: url('./static/fonts/Gilroy-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+// }
+
+// @font-face {
+//   font-family: 'DroidSerif';
+//   src: url('./static/fonts/Gilroy-Light.woff') format('woff');
+//   font-weight: light;
+//   font-style: normal;
+//   }
 
 //import main sass file
 @import './sass/main.scss';

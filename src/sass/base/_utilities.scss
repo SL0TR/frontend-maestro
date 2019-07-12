@@ -11,7 +11,52 @@
   color: #fff;
   font-weight: 700;
   font-size: 2.2rem;
+  border: 1px solid transparent;
+  cursor: pointer;
   padding: 1.6rem 6.5rem;
+
+  &:hover {
+    background-color: #fff;
+    border: 1px solid $primary-color;
+    transition: all .3s;
+    color: $primary-color;
+  }
+
+}
+
+
+//Slider buttons
+.slider-arrow {
+  display: flex;
+  margin-top: 7rem;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  right: 1rem;
+  cursor: pointer;
+
+  &--left {
+    transform: rotate(-180deg);
+    height: 2rem;
+    width: 4rem;
+
+    path {
+      fill: rgba(#fff, .7);
+    }
+
+  }
+
+  &--right {
+    width: 6rem;
+    height: 3rem;
+    margin-left: 2rem;
+
+    path {
+      fill: #fff;
+    }
+
+  }
+
 }
 
 
