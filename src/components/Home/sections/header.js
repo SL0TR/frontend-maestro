@@ -23,7 +23,7 @@ const Header = () => {
         <h1>Identic</h1>
         <p>Dolore aute cupidatat nisi et ad enim adipisicing et.</p>
       </ScrollAnimation>
-      <ScrollAnimation className="col-4" animateIn="slideInRight" >
+      <ScrollAnimation className="col-4" animateIn="slideInRight" animateOnce>
           <ScrollAnimation  animateIn="fadeInRight" delay={1000} animateOnce>
             <p>New</p>
             <h2>Marketing Agency</h2>
