@@ -18,6 +18,7 @@
   .col-2 {
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 
     .box {
       width: 50%;
@@ -75,7 +76,7 @@
   }
 
   .col-4 {
-
+    overflow: hidden;
 
     @include respond(tab-land) {
       padding: 2rem;
