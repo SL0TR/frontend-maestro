@@ -86,7 +86,11 @@
 
   .col-1 {
     width: 15%;
-    
+
+    @include respond(desktop) {
+      width: 10%;
+    }
+
     @include respond(tab-land) {
       display: none;
     }
@@ -95,6 +99,10 @@
 
   .col-2 {
     width: 36%;
+
+    @include respond(desktop) {
+      width: 40%;
+    }
     
     @include respond(tab-land) {
       width: 100%;
@@ -105,10 +113,19 @@
 
   .col-3 {
     width: 8%;
+
+    @include respond(desktop) {
+      width: 10%;
+    }
+
   }
   
   .col-4 {
     width: 26%;
+
+    @include respond(desktop) {
+      width: 30%;
+    }
     @include respond(tab-land) {
       width: 100%;
     }
@@ -116,6 +133,10 @@
 
   .col-5 {
     width: 15%;
+
+    @include respond(desktop) {
+      width: 10%;
+    }
 
     @include respond(tab-land) {
       display: none;
