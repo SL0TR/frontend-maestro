@@ -24,11 +24,11 @@ const Footer = () => {
         <h3 className="logo-text">Bin<span>Go</span> </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
-      {footerLinks.map( el => (
-        <div className={`footer-${el.title.toLocaleLowerCase()}`}>
+      {footerLinks.map( (el, i) => (
+        <div key={i} className={`footer-${el.title.toLocaleLowerCase()}`}>
           <h5>{el.title}</h5>
-          {el.links.map(el => (
-            <a href="/">{el}</a>
+          {el.links.map((el, i) => (
+            <a key={i} href="/">{el}</a>
           ))}
         </div>
       ))}

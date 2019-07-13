@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from './layout';
+import "animate.css/animate.min.css";
 import './App.scss';
 import Home from './components/Home/Home.js';
 import Nav from './components/layout/Nav.js';
