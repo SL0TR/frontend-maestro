@@ -1,7 +1,7 @@
 nav,
 .nav {
   background-color: $cream-white;
-
+  
   @include respond(tab-land) {
     flex-direction: column;
   }
@@ -20,13 +20,13 @@ nav,
     display: flex;
     justify-content: flex-end;
     position: relative;
-    background-color: $blue-white;
     z-index: 20;
-    border-bottom: 0;
-    box-shadow: -1px 0px 15px 2px rgba($primary-color, .06);
-
+    
     @include respond(tab-land) {
       padding: 2rem;
+      border-bottom: 0;
+      box-shadow: -1px 0px 15px 2px rgba($primary-color, .06);
+      background-color: $blue-white;
       display: flex !important;
       width: 100% !important;
       justify-content: center;

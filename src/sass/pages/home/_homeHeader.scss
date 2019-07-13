@@ -114,7 +114,14 @@
       background-position: center;
       background-size: 32% 32%;
       background-repeat: no-repeat;
+      cursor: pointer;
       height: 6.5rem;
+
+      &:hover {
+        background-color: darken($primary-color, 50%);
+        transition: all .3s;
+      }
+
     }
 
     .cta-btn {
@@ -128,6 +135,14 @@
       font-weight: bold;
       box-shadow: 0px 1px 15px 10px rgba(0, 0, 0, .1);
       font-size: 2rem;
+
+      &:hover {
+        background-color: $primary-color;
+        color: #fff;
+        transition: all .3s;
+        cursor: pointer;
+      }
+
     }
 
   }
