@@ -1,5 +1,6 @@
 import React from 'react';
 import { ReactComponent as SliderArrow } from '../../../static/right-arrow.svg';
+import ScrollAnimation from 'react-animate-on-scroll';
 
 const NextSection = () => {
 
@@ -8,6 +9,7 @@ const NextSection = () => {
         <div className="col-1"></div>
         <div className="col-2">
           <div className="next-bg">
+            <ScrollAnimation animateIn="next-bg-animation"  animateOnce delay={200} className="next-bg--thumb"></ScrollAnimation>
             <h2>Next generation</h2>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             <div className="play-btn"></div>
@@ -16,9 +18,12 @@ const NextSection = () => {
               <SliderArrow className="slider-arrow--right" />
             </div>
             <div className="float-thumb">
-            <div className="thumb"></div>
+            <ScrollAnimation animateIn="slideInLeft" animateOnce delay={50} className="thumb"></ScrollAnimation>
+            <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
               <h5>Minima veniam</h5>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+            </ScrollAnimation>
+              
             </div>
           </div>
           <div className="next-left">
@@ -30,11 +35,15 @@ const NextSection = () => {
         </div>
         <div className="col-3"></div>
         <div className="col-4">
-          <h1>next</h1>
+          <ScrollAnimation delay={500} animateIn="fadeInDown" animateOnce>
+            <h1>next</h1>
+          </ScrollAnimation>
           <div className="next-main">
-            <div className="next-main--thumb"></div>
-            <h5>Expecdjasd ullam</h5>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+            <ScrollAnimation animateIn="slideInLeft" animateOnce className="next-main--thumb"></ScrollAnimation>
+            <ScrollAnimation delay={1000} animateIn="fadeIn" animateOnce>
+              <h5>Expecdjasd ullam</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing .</p>
+            </ScrollAnimation>
           </div>
           <div className="next-right">
             <h2>Susicipt laborasdsm</h2>

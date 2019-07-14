@@ -1,5 +1,4 @@
 .new-container {
-  // position: relative;
 
   .new-empty {
 
@@ -44,8 +43,6 @@
           margin-bottom: 2rem;
         
         }
-
-      
 
         p {
           display: none;
@@ -167,7 +164,6 @@
 
           }
 
-
           .chart {
             display: flex;
             justify-content: space-between;
@@ -180,10 +176,7 @@
               background-color: rgba($primary-color, .1);
             }
 
-
-
           }
-
 
         }
 
@@ -193,19 +186,4 @@
   
   }
 
-
 }
-
-
-// @keyframes slideInLeft {
-//   from {
-//     -webkit-transform: translate3d(-20%, 0, 0);
-//     transform: translate3d(-20%, 0, 0);
-//     visibility: visible;
-//   }
-
-//   to {
-//     -webkit-transform: translate3d(0, 0, 0);
-//     transform: translate3d(0, 0, 0);
-//   }
-// }

@@ -10,24 +10,43 @@
   }
 
   .col-2 {
-
+    
     .next-bg {
-      background-image: url('./static/next-bg.jpg');
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
       color: #fff;
       position: relative;
       padding: 7rem 0 4rem 5rem;
       margin-bottom: 35rem;
 
+     
+      &--thumb {
+        background-image: url('./static/next-bg.jpg');
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 100%;
+        left: 0;
+        top: 0;
+        width: 0;
+        background-repeat: no-repeat;
+      }
+
+      .next-bg-animation {
+        transition: all 1s;
+        width: 100%;
+      }
+
+
       h2 {
         color: inherit;
+        z-index: 5;
+        position: relative;
       }
 
       p {
         width: 45%;
         margin-top: 2rem;
+        z-index: 5;
+        position: relative;
       }
 
       .play-btn {
@@ -118,8 +137,18 @@
 
 
   .col-4 {
-    text-align: center;
-    padding-top: 2.5rem;
+    overflow-x: hidden;
+
+    @include respond(tab-land) {
+      text-align: center;
+      padding-top: 2.5rem;
+    }
+
+    h1 {
+      position: relative;
+      right: 1rem;
+    }
+
     .next-main {
       margin-bottom: 22rem;
 
