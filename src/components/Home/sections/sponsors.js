@@ -13,7 +13,7 @@ const Sponsors = () => {
       <div className="col-3"></div>
       <div className="col-4"></div>
       <div className="col-5"></div>
-      <ScrollAnimation className="sponsor-gallery"   animateIn="fadeInUp" duration={.5} animateOnce>
+      <ScrollAnimation className="sponsor-gallery" animateIn="fadeInUp" duration={.7} animateOnce>
         <img src={sponsorLogoOne} alt="sponsor-gallery--logo" className="sponsor-gallery--logo"/>
         <img src={sponsorLogoTwo} alt="sponsor-gallery--log" className="sponsor-gallery--logo"/>
         <img src={sponsorLogoThree} alt="sponsor-gallery--log" className="sponsor-gallery--logo"/>

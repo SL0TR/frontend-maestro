@@ -1,4 +1,4 @@
-import React,{ useState, useEffect, useRef} from 'react';
+import React,{ useEffect, useRef } from 'react';
 import { ReactComponent as SliderArrow } from '../../../static/right-arrow.svg';
 import ScrollAnimation from 'react-animate-on-scroll';
 
