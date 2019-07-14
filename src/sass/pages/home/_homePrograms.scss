@@ -1,6 +1,7 @@
 .programs-container {
   background-color: $blue-white;
   position: relative;
+  overflow-y: hidden;
 
   @include col-x {
     height: 79rem;
@@ -18,6 +19,33 @@
   .col-1,
   .col-3 {
     display: none;
+  }
+
+  @-webkit-keyframes slideInDownPrograms {
+    0% {
+      transform: translate3d(0,-100%,0);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+  
+  @keyframes slideInDownPrograms {
+    0% {
+      transform: translate3d(0,-100%,0);
+      visibility: visible;
+    }
+
+    100% {
+      transform: translateY(-50%);
+    }
+  }
+  
+  .slideInDownPrograms {
+    -webkit-animation-name: slideInDownPrograms;
+    animation-name: slideInDownPrograms;
   }
 
   .our-programs {
