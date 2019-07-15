@@ -39,6 +39,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+####OR
+
+### `npm run deploy`
+
+Builds the project first with `npm run build` and then deployes the project to Github Pages according to the declared 'homepage' on `package.json`
+
 ### `npm run eject`
 
 

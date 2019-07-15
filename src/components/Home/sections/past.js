@@ -26,11 +26,11 @@ const PastSection = () => {
       <div className="col-4">
         <ScrollAnimation  animateIn="slideInLeft" animateOnce>
           <h1>past
-            <p>
+            <div className="grey-text">
               <ScrollAnimation delay={500} animateIn="fadeInDown" animateOnce>
                 branding projects 
               </ScrollAnimation>
-            </p>
+            </div>
              </h1>
           <p className="past-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum placeat amet magni assumenda consequatur repellat</p>
           <div className="btn">More</div>

@@ -82,12 +82,12 @@
       }
       
 
-      p {
+      .grey-text {
         position: absolute;
         left: 4rem;
         color: rgba(#000, 0.15);
         font-size: 2.7rem;
-        bottom: 2.2rem;
+        bottom: 1.5rem;
         @include respond(tab-land) {
           bottom: -4rem;
           width: 100%;
