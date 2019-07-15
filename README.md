@@ -1,8 +1,8 @@
-###This project was done as a task from "Frontend Maestro".
+### This project was done as a task from "Frontend Maestro".
 ---
 The target design for this project was from dribbble.
 
-#####Dribbble Design: [Link](https://dribbble.com/shots/6685290-Landing-page-BinGo)
+##### Dribbble Design: [Link](https://dribbble.com/shots/6685290-Landing-page-BinGo)
 ![alt text](https://cdn.dribbble.com/users/702789/screenshots/6685290/attachments/1428163/atach2.png "Dribble Design")
  
 
