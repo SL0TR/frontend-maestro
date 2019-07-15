@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/frontend-maestro/static/css/main.4f3b41ef.chunk.css",
+    "main.js": "/frontend-maestro/static/js/main.f2ee0236.chunk.js",
+    "main.js.map": "/frontend-maestro/static/js/main.f2ee0236.chunk.js.map",
+    "runtime~main.js": "/frontend-maestro/static/js/runtime~main.f0a07af2.js",
+    "runtime~main.js.map": "/frontend-maestro/static/js/runtime~main.f0a07af2.js.map",
+    "static/css/2.f2ad0615.chunk.css": "/frontend-maestro/static/css/2.f2ad0615.chunk.css",
+    "static/js/2.5f11e349.chunk.js": "/frontend-maestro/static/js/2.5f11e349.chunk.js",
+    "static/js/2.5f11e349.chunk.js.map": "/frontend-maestro/static/js/2.5f11e349.chunk.js.map",
+    "index.html": "/frontend-maestro/index.html",
+    "precache-manifest.1f01fe7b028abf816e52ed00494c8174.js": "/frontend-maestro/precache-manifest.1f01fe7b028abf816e52ed00494c8174.js",
+    "service-worker.js": "/frontend-maestro/service-worker.js",
+    "static/css/2.f2ad0615.chunk.css.map": "/frontend-maestro/static/css/2.f2ad0615.chunk.css.map",
+    "static/css/main.4f3b41ef.chunk.css.map": "/frontend-maestro/static/css/main.4f3b41ef.chunk.css.map",
+    "static/media/close.d0e2a772.svg": "/frontend-maestro/static/media/close.d0e2a772.svg",
+    "static/media/App.scss": "/frontend-maestro/static/media/settings.ce33a9b1.svg",
+    "static/media/menu.a8c6e39c.svg": "/frontend-maestro/static/media/menu.a8c6e39c.svg",
+    "static/media/right-arrow.5b4b2290.svg": "/frontend-maestro/static/media/right-arrow.5b4b2290.svg",
+    "static/media/shopping-bag.bcfc2f43.svg": "/frontend-maestro/static/media/shopping-bag.bcfc2f43.svg",
+    "static/media/sponsor-2.png": "/frontend-maestro/static/media/sponsor-2.5c1313d1.png"
+  }
+}
