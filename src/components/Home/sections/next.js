@@ -51,7 +51,9 @@ const NextSection = () => {
             <a href="/">LEARN MORE</a>
           </div>
         </div>
-        <div className="col-5"></div>
+        <div className="col-5 relative">
+        <ScrollAnimation animateIn="slideInRight" delay={500} animateOnce className="black-bar" />
+        </div>
       </section>
    );
 }

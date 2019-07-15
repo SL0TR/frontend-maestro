@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Layout from './layout';
 import "animate.css/animate.min.css";
 import './App.scss';
@@ -8,6 +8,11 @@ import Footer from './components/layout/Footer';
 
 
 function App() {
+
+  useEffect(() => {
+    document.title = 'Bingo';
+  })
+
   return (
    <Layout>
     <Nav />

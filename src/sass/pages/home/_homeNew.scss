@@ -41,7 +41,6 @@
 
         @include respond(tab-land) {
           margin-bottom: 2rem;
-        
         }
 
         p {
@@ -62,7 +61,16 @@
 
     }
 
+    .col-1 {
+      @include black-bar(30%, 20%, 0, initial);
+    }
+
+    .col-3 {
+      @include black-bar(50px, 80%, 0, 0);
+    }
+
     .col-2 {
+      z-index: 20;
       position: relative;
 
       @include respond(tab-land) {
@@ -176,7 +184,49 @@
               background-color: rgba($primary-color, .1);
             }
 
+            
+
           }
+
+          .colored-bar {
+            .max,
+            .min {
+              background-color: $pink;
+              transition: all .5s ease-in;
+              position: relative;
+
+              &::after {
+                opacity: 0;
+                transition: all .5s ease-in;
+                top: -2.5rem;
+                position: absolute;
+                font-weight: bold;
+                font-family: $headingFont;
+                opacity: 1;
+                color: $pink;
+                left: 50%;
+                transform: translateX(-50%) rotate(-90deg);
+              }
+              
+            }
+
+            .max {
+
+              &::after {
+                content: "max";
+                opacity: 1;
+              }
+
+            }
+
+            .min {
+              &::after {
+                content: "med";
+                opacity: 1;
+              }
+            }
+          }
+
 
         }
 

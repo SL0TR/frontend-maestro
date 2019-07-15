@@ -133,6 +133,9 @@
     }
 
 
+    @include black-bar(10%, 90%, initial, -10%);
+    @include black-bar-2(5%, 10%, -5%, initial);
+
     
   }
 

@@ -38,22 +38,12 @@
         position: absolute;
         right: -2rem;
         bottom: -9.5rem;
-        
-
       }
 
       &:nth-child(1) {
+        position: relative;
 
-        &::after {
-          position: absolute;
-          height: 9px;
-          content: "";
-          right: 0;
-          width: 50%;
-          background-color: $primary-color;
-          top: 50%;
-          transform: translateY(-50%);
-        }
+        @include black-bar(50%, 50%, 0, initial, center);
 
       }
 
@@ -124,6 +114,10 @@
 
     }
 
+  }
+
+  .col-5 {
+    @include black-bar(50%, 50%, 0, initial, center);
   }
 
 }

@@ -239,4 +239,8 @@
   }
 
 
+  .col-5 {
+    @include black-bar(60%, 10%, 0, initial);
+  }
+
 }
