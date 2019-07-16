@@ -110,7 +110,9 @@
     }
 
     .next-left {
-      text-align: center;
+      @include respond(tab-land) {
+        text-align: center;
+      }
       
       h5 {
         font-size: 1.9rem;
@@ -126,7 +128,10 @@
         font-size: 6rem;
         color: $blue;
         font-weight: bold;
-        text-align: center;
+
+        @include respond(tab-land) {
+          text-align: center;
+        }
       }
 
       
@@ -235,6 +240,15 @@
 
     }
 
+
+  }
+
+  .col-3 {
+    position: relative;
+
+    @include black-bar(120%, 65%, initial, -120%);
+    @include black-bar-2(35%, 70%, initial, 0%);
+    
 
   }
 

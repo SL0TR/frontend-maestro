@@ -33,7 +33,10 @@ const NextSection = () => {
             <p>nisi ut alquid ex ea</p>
           </div>
         </div>
-        <div className="col-3"></div>
+        <div className="col-3">
+          <div className="black-bar"></div>
+          <div className="black-bar-2"></div>
+        </div>
         <div className="col-4">
           <ScrollAnimation delay={500} animateIn="fadeInDown" animateOnce>
             <h1>next</h1>

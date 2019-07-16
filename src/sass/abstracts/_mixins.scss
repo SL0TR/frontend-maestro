@@ -68,6 +68,8 @@ $columns: 5;
 }
 
 
+// MIXIN FOR THE BLACK BARS
+
 @mixin black-bar( $width: 50%, $top: initial, $right: initial, $left: initial, $center: initial) {
 
   .black-bar {

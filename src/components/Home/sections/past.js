@@ -7,7 +7,7 @@ const PastSection = () => {
       <div className="col-1"></div>
       <div className="col-2">
         <div className="box">
-          <ScrollAnimation animateIn="slideInRight" animateOnce className="black-bar" />
+          <ScrollAnimation animateIn="slideInRight" animateOnce className="black-bar" delay={500} />
         </div>
         <ScrollAnimation className="box" animateIn="slideInRight" animateOnce>
           <h2>past</h2>
@@ -37,7 +37,7 @@ const PastSection = () => {
         </ScrollAnimation>
       </div>
       <div className="col-5 relative">
-        <ScrollAnimation animateIn="slideInRight" animateOnce className="black-bar" />
+        <ScrollAnimation animateIn="slideInRight" animateOnce className="black-bar" delay={500} />
       </div>
     </section>
    );
