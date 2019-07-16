@@ -46,6 +46,19 @@
   .slideInDownPrograms {
     -webkit-animation-name: slideInDownPrograms;
     animation-name: slideInDownPrograms;
+
+    .black-bar {
+      width: 10% !important;
+      left: -10% !important;
+      transition: all 1.5s;
+    }
+
+    .black-bar-2 {
+      right: -5% !important;
+      width: 5% !important;
+      transition: all 1.5s;
+    }
+
   }
 
   .our-programs {
@@ -133,8 +146,8 @@
     }
 
 
-    @include black-bar(10%, 90%, initial, -10%);
-    @include black-bar-2(5%, 10%, -5%, initial);
+    @include black-bar(0%, 90%, initial, 0%);
+    @include black-bar-2(0%, 10%, 0%, initial);
 
     
   }
