@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/frontend-maestro/static/css/main.186aaa22.chunk.css",
+    "main.css": "/frontend-maestro/static/css/main.55767f82.chunk.css",
     "main.js": "/frontend-maestro/static/js/main.e46b10e4.chunk.js",
     "main.js.map": "/frontend-maestro/static/js/main.e46b10e4.chunk.js.map",
     "runtime~main.js": "/frontend-maestro/static/js/runtime~main.f0a07af2.js",
@@ -9,10 +9,10 @@
     "static/js/2.5f11e349.chunk.js": "/frontend-maestro/static/js/2.5f11e349.chunk.js",
     "static/js/2.5f11e349.chunk.js.map": "/frontend-maestro/static/js/2.5f11e349.chunk.js.map",
     "index.html": "/frontend-maestro/index.html",
-    "precache-manifest.abe6946d845970c8d2f09500d13c8a6b.js": "/frontend-maestro/precache-manifest.abe6946d845970c8d2f09500d13c8a6b.js",
+    "precache-manifest.8c8f05530ad7977d9b169a8aeb096497.js": "/frontend-maestro/precache-manifest.8c8f05530ad7977d9b169a8aeb096497.js",
     "service-worker.js": "/frontend-maestro/service-worker.js",
     "static/css/2.f2ad0615.chunk.css.map": "/frontend-maestro/static/css/2.f2ad0615.chunk.css.map",
-    "static/css/main.186aaa22.chunk.css.map": "/frontend-maestro/static/css/main.186aaa22.chunk.css.map",
+    "static/css/main.55767f82.chunk.css.map": "/frontend-maestro/static/css/main.55767f82.chunk.css.map",
     "static/media/close.d0e2a772.svg": "/frontend-maestro/static/media/close.d0e2a772.svg",
     "static/media/App.scss": "/frontend-maestro/static/media/settings.ce33a9b1.svg",
     "static/media/menu.a8c6e39c.svg": "/frontend-maestro/static/media/menu.a8c6e39c.svg",

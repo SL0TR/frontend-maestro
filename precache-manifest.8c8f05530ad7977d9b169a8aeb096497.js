@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5abf11403d0ed38c46663efe6fc351fa",
+    "revision": "082e31b5e95d33e086c9a1ade3c924da",
     "url": "/frontend-maestro/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/frontend-maestro/static/css/2.f2ad0615.chunk.css"
   },
   {
-    "revision": "36006905ebda2d051978",
-    "url": "/frontend-maestro/static/css/main.186aaa22.chunk.css"
+    "revision": "81a1e5dd0573f8e13357",
+    "url": "/frontend-maestro/static/css/main.55767f82.chunk.css"
   },
   {
     "revision": "5011ce7c264c7d9f774b",
     "url": "/frontend-maestro/static/js/2.5f11e349.chunk.js"
   },
   {
-    "revision": "36006905ebda2d051978",
+    "revision": "81a1e5dd0573f8e13357",
     "url": "/frontend-maestro/static/js/main.e46b10e4.chunk.js"
   },
   {
